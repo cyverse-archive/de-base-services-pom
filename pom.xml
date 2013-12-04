@@ -45,12 +45,13 @@
 
         <hibernate.version>3.6.8.Final</hibernate.version>
         <scm.base>git@github.com:iPlantCollaborativeOpenSource</scm.base>
+        <scm.repo>de-base-services-pom.git</scm.repo>
     </properties>
 
     <scm>
-        <connection>scm:git:${scm.base}/de-base-services-pom.git</connection>
-        <developerConnection>scm:git:${scm.base}/de-base-services-pom.git</developerConnection>
-        <url>${scm.base}/de-authn.git</url>
+        <connection>scm:git:${scm.base}/${scm.repo}</connection>
+        <developerConnection>scm:git:${scm.base}/${scm.repo}</developerConnection>
+        <url>${scm.base}/${scm.repo}</url>
     </scm>
 
     <dependencies>
