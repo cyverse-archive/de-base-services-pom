@@ -18,6 +18,20 @@
         are not.
     </description>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <licenses>
+        <license>
+            <name>Standard BSD</name>
+            <url>http://www.iplantcollaborative.org/sites/default/files/iPLANT-LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <properties>
         <!-- Tools properties -->
         <jdk.version>1.6</jdk.version>
@@ -30,7 +44,14 @@
         <project.reporting.outputEncoding>${default.encoding}</project.reporting.outputEncoding>
 
         <hibernate.version>3.6.8.Final</hibernate.version>
+        <scm.base>git@github.com:iPlantCollaborativeOpenSource</scm.base>
     </properties>
+
+    <scm>
+        <connection>scm:git:${scm.base}/de-base-services-pom.git</connection>
+        <developerConnection>scm:git:${scm.base}/de-base-services-pom.git</developerConnection>
+        <url>${scm.base}/de-authn.git</url>
+    </scm>
 
     <dependencies>
         <!-- JSON Dependencies -->
