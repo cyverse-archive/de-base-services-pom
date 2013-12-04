@@ -59,7 +59,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>20131018</version>
         </dependency>
         <dependency>
             <groupId>net.sf.json-lib</groupId>
