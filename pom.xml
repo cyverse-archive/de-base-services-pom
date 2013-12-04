@@ -261,36 +261,9 @@
 
     <repositories>
         <repository>
-            <id>central</id>
-            <name>Maven Repository Switchboard</name>
-            <layout>default</layout>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <url>http://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
             <id>JBoss</id>
             <name>JBoss repository</name>
             <url>https://repository.jboss.org/nexus/content/groups/public-jboss</url>
-        </repository>
-        <repository>
-            <id>iPlant</id>
-            <name>iPlant Collaborative local repository</name>
-            <url>http://projects.iplantcollaborative.org/archiva/repository/internal/</url>
-            <releases>
-                <updatePolicy>daily</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>mirror</id>
-            <url>http://www.ibiblio.org/maven/</url>
-            <releases>
-                <updatePolicy>daily</updatePolicy>
-            </releases>
         </repository>
     </repositories>
 </project>
