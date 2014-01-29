@@ -54,6 +54,12 @@
         <url>${scm.base}/${scm.repo}</url>
     </scm>
 
+    <developers>
+        <developer>
+            <url>https://github.com/orgs/iPlantCollaborativeOpenSource/teams/iplant-devs</url>
+        </developer>
+    </developers>
+
     <dependencies>
         <!-- JSON Dependencies -->
         <dependency>
